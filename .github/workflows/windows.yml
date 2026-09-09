@@ -15,6 +15,7 @@ jobs:
           flutter-version: 'stable'
           channel: 'stable'
 
+        - run: flutter create --platforms=windows .
       - run: flutter pub get
       - run: flutter build windows --release
 
