@@ -1,0 +1,20 @@
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+build/
+.hqvpn_backup/
+third_party/
+# Never commit real VPN profiles or private keys
+assets/configs/*.conf
+*.key
+*.p12
+*.mobileprovision
+.DS_Store
+.idea/
+.vscode/
+
+android/key.properties
+android/local.properties
+*.jks
+android/.gradle/
